@@ -1,0 +1,1 @@
+define(["libraries/simplebar/simplebar.min"],function(e){return function(a){a.find("[data-scroll]").each((a,i)=>{new e($(i)[0],{autoHide:!1}),$(i).addClass("has-simplebar")})}});

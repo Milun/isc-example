@@ -1,0 +1,22 @@
+<div class="footer__inner">
+    
+    <div class="footer__progress js-footer-progress">
+
+    </div>
+    
+    <div class="footer__controls-container">
+        <button class="footer__controls footer__controls-notes js-footer-controls-notes">
+            <span class="icon icon-hm-notes"></span>
+        </button>
+        <button class="footer__controls footer__controls-prev js-footer-controls-prev">
+            <span class="icon icon-hm-prev"></span>
+        </button>
+        <div class="footer__label">
+            <span class="footer__label-cur js-footer-label-cur">00</span> / <span class="footer__label-total js-footer-label-total">00</span>
+            {{#if ./_isDebug}}<div class="footer__label-debug js-footer-label-debug">b-ERROR</div>{{/if}}
+        </div>
+        <button class="footer__controls footer__controls-next js-footer-controls-next">
+            <span class="icon icon-hm-next"></span>
+        </button>
+    </div>
+</div>

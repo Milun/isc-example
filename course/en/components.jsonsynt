@@ -1,0 +1,37 @@
+[
+	{
+		"_id": 				"",
+		"_parentId": 		"b-1",
+		"_component": 		"hyb-staticintro",
+		"_classes": 		"",
+	
+		<<<! Background !>>>
+		"_background": {
+			"_isEnabled": 	true,
+			"src": 			"course/en/images/b-1/pic-0.jpg",
+			"color": 		"#ffffff",
+			"body": 		""
+		},
+	
+		<<<! Standup !>>>
+		"title": 			"XXX",
+		"body": <<<"
+			XXX
+		">>>,
+		"sectionBanner": 	"Section X",
+	
+		<<<! Grid !>>>
+		"_grid": {
+			"_areas": [
+				[ 	"", 			"", 			""],
+				[ 	"s32.5", 			"", 			""],
+				[ 	"", 			"", 			""]
+			],
+			"_customs": [			]
+		},
+		<<<~
+		"_layout": 			"full",
+		"_type": 			"component"
+		~>>>
+	}
+]

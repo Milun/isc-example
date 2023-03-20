@@ -1,0 +1,1 @@
+{"build":{"_comment1":"Include/exclude components and extensions specific to this unit here (reduces filesize)","_comment2":"These modules will be REMOVED from config.build.excludes","includes":[],"_comment3":"These modules will be ADDED to config.build.excludes","excludes":[]}}

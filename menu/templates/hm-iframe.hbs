@@ -1,0 +1,13 @@
+<div class="iframe__inner">
+
+    <iframe 
+        class="js-iframe-iframe"
+        {{!src="index_hybrid.html?block=1,2,3#/id/co-05" !}}
+        src="{{./src}}"
+        referrerpolicy="no-referrer"
+        sandbox="allow-same-origin allow-scripts allow-top-navigation allow-presentation allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-downloads"
+        {{! allow-popups-to-escape-sandbox is very important. It allows for PDF hyperlinks to work correctly (without being blocked by Chrome) }}
+        
+        allow="fullscreen"
+        scrolling="no"></iframe>
+</div>

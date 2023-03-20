@@ -1,0 +1,31 @@
+<div class="menu__inner">
+    
+    <div class="menu__nav js-menu-nav">
+
+        <div class="menu__nav-items">
+            {{#each ./_items}}
+                <div 
+                    class="menu__nav-item"
+                    data-index="{{./_index}}">
+                    <button 
+                        class="menu__nav-btn js-menu-nav-btn is-{{./_id}}{{#if ./_isActive}} is-active{{/if}}" 
+                        data-index="{{./_index}}">
+                        <span 
+                            class="icon icon-hm-{{./_id}}"
+                            style="font-size: {{./_iconSize}}em;"></span>{{./title}}
+                    </button>
+                </div>
+            {{/each}}
+        </div>
+
+        <div class="menu__copyright">
+            <div class="menu__copyright-inner">
+                {{{./copyright}}}
+            </div>
+        </div>
+    </div>
+
+    <div class="menu__content js-menu-content">
+        {{! JS appends View here }}
+    </div>
+</div>

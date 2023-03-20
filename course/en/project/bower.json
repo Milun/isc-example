@@ -1,0 +1,1 @@
+{"name":"adapt-course-project","framework":">=5","description":"All scripts specific to this exact project defined here.","main":"/js/project.js","displayName":"CourseProject","keywords":["adapt-course-project"],"pluginDependencies":{"adapt-sizing":">0"},"ignore":["**/.*","node_modules","bower_components","test","tests"],"license":"MIT","homepage":"","private":true}

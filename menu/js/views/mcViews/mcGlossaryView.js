@@ -1,0 +1,1 @@
+define(["./mcView"],function(e){class n extends e{getTemplate(){return"hm-mcGlossary"}}return n});

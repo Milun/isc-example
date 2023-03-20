@@ -1,0 +1,22 @@
+<div class="mc__inner mc-references__inner" data-scroll="auto">
+    
+    {{#if ./_items}}
+        {{#each ./_items}}
+            <div class="mc__item mc-references__item">
+                <div class="mc__item-body">
+                    <div class="mc__item-body-inner">
+                        {{{compile ./body}}}
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    {{else}}
+        <div class="mc__item mc-references__item">
+            <div class="mc__item-body">
+                <div class="mc__item-body-inner">
+                    <em>There are no references for this section.</em>
+                </div>
+            </div>
+        </div>
+    {{/if}}
+</div>

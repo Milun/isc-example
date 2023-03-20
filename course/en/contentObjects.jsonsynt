@@ -1,0 +1,51 @@
+[
+    {
+		<<<~
+        "_id": 			"co-05",
+        "_parentId": 	"course",
+        "_type": 		"page",
+        "_classes": 	"",
+        "_htmlClasses": "",
+		"pageBody": 	"",
+		~>>>
+
+		<<<! === Debug ============================================================================================== !>>>
+		"_tin":			"",	<<<@ TIN number @>>>
+		"_proofing":	"", 	<<<@ "grunt build-upload" will upload to this path on Proofing  @>>> 
+        
+		<<<! === Page header ============================================================================================== !>>>
+		"productionCode": 	"SIT999", 			<<<@ Example: "IT08" @>>>
+		"topicNum": 		"1",			<<<@ Example: "1" @>>>
+		"title": 			"An example topic title",
+        "displayTitle": 	"An example topic title",
+
+
+		<<<! For glossaries, references, and other _menuData, see the "shared" folder !>>>
+		
+
+		<<<~
+		"_didasko": {
+			"_pageHeader": {
+				"_backgroundImage": {
+					"_large": 	"course/en/images/banner.jpg",
+					"_medium": 	"course/en/images/banner.jpg",
+					"_small": 	"course/en/images/banner.jpg"
+				}
+			}
+		},
+		"body": 		<<<"">>>,
+        "instruction": 	"",
+		"_graphic": {
+            "src": "course/en/images/menu-item.png",
+            "alt": "Placeholder graphic."
+        },
+        "linkText": 	"View",
+        "duration": 	"2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_showPageCompletion": false,
+            "_excludeAssessments": false,
+            "_isCompletionIndicatorEnabled": false
+        }~>>>
+    }
+]

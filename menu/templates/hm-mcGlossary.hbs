@@ -1,0 +1,32 @@
+<div class="mc__inner mc-glossary__inner" data-scroll="auto">
+    
+    {{#if ./_items}}
+        {{#each ./_items}}
+            <div class="mc__item mc-glossary__item">
+                <div class="mc__item-title">
+                    <div class="mc__item-title-inner">
+                        {{{compile ./title}}}
+                    </div>
+                </div>
+                <div class="mc__item-body">
+                    <div class="mc__item-body-inner">
+                        {{! Allow for menu-specific glossary definitions (example: if the inline glossary has contextual information that wouldn't make sense in the menu).}}
+                        {{#if ./menuBody}}
+                            {{{compile ./menuBody}}}
+                        {{else}}
+                            {{{compile ./body}}}
+                        {{/if}}
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    {{else}}
+        <div class="mc__item mc-glossary__item">
+            <div class="mc__item-body">
+                <div class="mc__item-body-inner">
+                    <em>There are no glossary entries for this section.</em>
+                </div>
+            </div>
+        </div>
+    {{/if}}
+</div>

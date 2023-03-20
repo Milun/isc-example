@@ -1,0 +1,1 @@
+All Hybrid Menu template names must be prefixed with "hm-" to prevent them overriding core Hybrid templates.

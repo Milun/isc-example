@@ -1,0 +1,23 @@
+{
+	"course": {
+		"tin": "",
+		"productionCode": "SIT999",
+		"unitTitle": "An example unit info",
+		"topicTitle": "An example topic title"
+	},
+	"build": {
+		"date": "20/03/2023, 11:48:55",
+		"fwkRevision": "6a521d8d635f9d24d7e4f8f95bf160bf69e42be3",
+		"courseRevision": "51d7ffa1197facf506e08501431af8f2c48f67b1",
+		"courseOrigin": "R:/Production/Resources_in_progress/SIT rebuilds/SIT61 SITXGLC001 Research and comply with regulatory requirements/SIT61.1",
+		"modes": [
+			"build"
+		],
+		"modifiers": [
+			"--skip-uno"
+		],
+		"removedBlocks": [],
+		"includes": [],
+		"excludes": []
+	}
+}
