@@ -1,6 +1,0 @@
-define([],function(){class e extends Backbone.View{initialize(){this.setupEventListeners(),this.resize=_.debounce(this.resize.bind(this),100),this.resize()}setupEventListeners(){$(window).on("resize",this.onWindowResize.bind(this))}onWindowResize(){this.resize()}resize(){let e=1;Hybrid.device.touch||(e=window.devicePixelRatio||1,console.log("%cZoom level: "+e,"color: blue;"),1<e&&console.log("%cPage scrolling enabled.","color: blue;"));var i=this.$el,t=($(".app").css("overflow",1<e?"auto":"hidden"),Hybrid.device.getScreenWidth()),o=Hybrid.device.getScreenHeight(),s=i.width(),r=i.height(),n=t*e,l=o*e,d=n/s;let c=t+` / ${s} (width)`;l<d*r&&(d=l/r,c=o+` / ${r} (height)`);t=(n-(d=1<(d=Math.round(1e3*d)/1e3)?1:d)*s*e)/2,o=(l-d*r*e)/2,t=Math.round(t/e),o=Math.round(o/e);i.css({transform:"scale("+d+")",left:(t=t<0?0:t)+"px",top:(o=o<0?0:o)+"px"}),this.model.set("_scale",d),console.log(`%c
-WrapperWidth:       ${Math.round(s)}
-WrapperHeight:      ${Math.round(r)}
-WrapperScale:       ${100*d}%
-WrapperScaleCalc:   ${c}
-`,"color: purple;")}}return e});

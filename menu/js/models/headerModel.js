@@ -1,1 +1,0 @@
-define([],function(){class t extends Backbone.Model{initialize(){this.setupData()}setupData(){var t={title:Hybrid.course.get("title"),subTitle:Hybrid.contentObject.get("title")};this.set(t)}}return t});

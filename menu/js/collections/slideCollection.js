@@ -1,1 +1,0 @@
-define(["../models/slideModel"],function(e){class i extends Backbone.Collection{initialize(){this.model=e}getActiveItem(){return this.find(e=>e.get("_isActive"))}}return i});

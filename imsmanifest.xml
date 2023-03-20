@@ -6,7 +6,7 @@
     <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
       <general>
         <title>
-          <langstring xml:lang="x-none"><![CDATA[An example unit info]]></langstring>
+          <langstring xml:lang="x-none"><![CDATA[Didasko Multimedia Showcase]]></langstring>
         </title>
         <description>
           <langstring xml:lang="x-none"><![CDATA[]]></langstring>
@@ -16,9 +16,9 @@
   </metadata>
   <organizations default="adapt_scorm">
     <organization identifier="adapt_scorm">
-      <title><![CDATA[An example unit info]]></title>
+      <title><![CDATA[Didasko Multimedia Showcase]]></title>
       <item identifier="item_1" isvisible="true" identifierref="res1">
-        <title><![CDATA[An example unit info]]></title>
+        <title><![CDATA[Didasko Multimedia Showcase]]></title>
       </item>
     </organization>
   </organizations>

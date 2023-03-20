@@ -1,12 +1,83 @@
 {
-	<<<! The unit title is now defined in the "shared" folder !>>>
+	<<<! === Unit info ============================================================================================== !>>>
 
-	<<<~
-	<<<! Default codebox settings !>>>
-	"_codeBox": {
-		"_lang": "py" <<<@ Default language @>>>
+	"title": 			"Didasko Multimedia Showcase",
+	"displayTitle": 	"Didasko Multimedia Showcase",
+
+	<<<! === Advanced settings ============================================================================================== !>>>
+
+	<<<! Default Question feedback messages !>>>
+	"_feedback": {
+		"_correct": {
+			"title": "That’s correct! Well done.",
+			"body": ""
+		},
+		"_incorrect": {
+			"title": "Oops! That’s not quite right.",
+			"body": "",
+			"instruction": "Have another look at the options and try again."
+		},
+		"_partlyCorrect": {
+			"title": "That’s partly correct.",
+			"body": "",
+			"instruction": "Have another look at the options and try again."
+		}
 	},
 
+	<<<! Default Extra learning titles !>>>
+	"_extraLearning": {
+		"dyk": {
+			"title": "Did you know?"
+		},
+		"extend": {
+			"title": "Extend your learning"
+		},
+		"spotlight": {
+			"title": "Under the spotlight"
+		}
+	},
+
+	<<<! TryHTML button text !>>>
+	"_tryHtml": {
+		"_update": {
+			"buttonText": "Update output"
+		},
+		"_user": {
+			"title": "Broken script",
+			"buttonText": "Hide answer"
+		},
+		"_correct": {
+			"title": "Answer script (example)",
+			"buttonText": "Show answer"
+		}
+	},
+
+	<<<! FreeThinking default text !>>>
+	"_freeThinking": {
+		"_user": {
+			"inputPlaceholder": "Type your answer in here..."
+		},
+		"_correct": {
+			"instruction": "How did you go? Compare your answers to these."
+		},
+		"_buttons": {
+			"_showCorrectAnswer": {
+				"buttonText": "Compare your answers",
+				"ariaLabel": "Compare your answers"
+			},
+			"_hideCorrectAnswer": {
+				"buttonText": "Back",
+				"ariaLabel": "Show my answer"
+			}
+		}
+	},
+
+	<<<! Default codebox settings !>>>
+	"_codeBox": {
+		"_lang": "html" <<<@ Default language @>>>
+	},
+
+	<<<~
 	"_id": 				"course",
 	"_type": 			"course",
 	"_classes": 		"",

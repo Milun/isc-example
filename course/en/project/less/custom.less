@@ -22,3 +22,162 @@
 }
 
 /************************************/
+
+.page__header-inner {
+	margin: 0;
+	max-width: 51%;
+	margin-left: @sidenav-width + 2rem;
+}
+@media (max-width: @device-width-large) {
+	.page__header-inner {
+		margin-left: 2rem !important;
+	}
+}
+.page__title {
+	max-width: 37rem;
+	margin: auto;
+}
+
+@media (max-width: @device-width-large) {
+	.c-arrow {
+		min-width: 100%;
+	}
+}
+
+.c-figurearrow {
+	display: block;
+	text-align: center;
+
+	.icon::before {
+		font-size: 3rem;
+	}
+
+	.icon-arrow-right {display: block;}
+	.icon-arrow-down {display: none;}
+	@media (max-width: @device-width-large) {
+		.icon-arrow-right {display: none;}
+		.icon-arrow-down {display: block;}
+	}
+}
+
+.c-18 {
+
+	// Fade out the text in the tables 
+	td[data-stickyelement-active-idx],
+	th[data-stickyelement-active-idx] {
+		.transition(all @duration ease);
+		&:not(.is-se-active) {
+			color: transparent;
+		}
+	}
+
+	.markchain__label {
+		margin-top: -1px;
+	}
+
+	// Fading in/out markchains as the user scrolls.
+	// ---------------------------------------------
+	.c-18-mc .markchain__label {
+		.transition(opacity @duration ease);
+		opacity: 0;
+		pointer-events: none;
+	}
+	.c-18-mc.is-se-active .markchain__label {
+		opacity: 1;
+		pointer-events: all;
+	}
+
+	.c-18-r .markchain__label {
+		float: right;
+        font-size: inherit;
+        font-weight: inherit;
+		margin-top: 1px;
+	}
+
+	th > span {
+		white-space: nowrap;
+	}
+}
+
+// Bugfix: fixes the right pixel of tables sometimes being clipped in stickyElements.
+.stickyblock .stickyelement {
+	padding-right: 1px;
+}
+
+.c-prob .rgraph__probability-xarrow.idx-1 .rgraph__probability-xarrow-label {
+	width: 200%;
+}
+
+
+.c-8 {
+
+	@a: @device-width-small;
+
+	@b: @white;
+	@c: @mark-border-color;
+
+	display: flex;
+	flex-wrap: wrap;
+	width: @a;
+
+	font-size: 1.25rem;
+
+	.u-no-select;
+	cursor: pointer;
+
+	.c-8__item {
+		width: @a/10;
+		height: @a/10;
+		padding: @item-padding/4;
+		
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		&.item-6 {background: mix(@b, @c, 100%/6 * 0);}
+		&.item-5 {background: mix(@b, @c, 100%/6 * 1);}
+		&.item-4 {background: mix(@b, @c, 100%/6 * 2);}
+		&.item-3 {background: mix(@b, @c, 100%/6 * 3);}
+		&.item-2 {background: mix(@b, @c, 100%/6 * 4);}
+		&.item-1 {background: mix(@b, @c, 100%/6 * 5);}
+		&.item-0 {background: mix(@b, @c, 100%/6 * 6);}
+
+		//border: 1px solid rgba(0,0,0,0.1);
+	
+		box-shadow: 1px 1px black,
+					1px 1px inset black;
+
+		.transition(transform @duration*2 ease);
+	}
+
+	@media (max-width: @device-width-medium) {
+		width: @device-width-small*0.6;
+		font-size: 1rem;
+
+		.c-8__item {
+			width: @device-width-small*0.6/10;
+			height: @device-width-small*0.6/10;
+		}
+	}
+}
+
+table.theme-frequency.c-18 {
+	tr:nth-child(2) {
+		border-bottom-width: 0;
+	}
+}
+
+.c-16 {
+	.m-math nobr {
+		display: inline-block;
+		padding: 0.25em 0;
+	}
+
+	.figure .m-math {
+		font-size: 1.5rem; // Slightly reduce the font size of the math.
+	}
+}
+
+.markchain.theme-ghost .markchain__label {
+}
+

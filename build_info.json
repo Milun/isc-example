@@ -1,23 +1,154 @@
 {
-	"course": {
-		"tin": "",
-		"productionCode": "SIT999",
-		"unitTitle": "An example unit info",
-		"topicTitle": "An example topic title"
+	"meta": {
+		"unitCode": "SHOW01",
+		"unitTitle": "Didasko Multimedia Showcase",
+		"topicNum": "1",
+		"topicTitle": "Didasko Multimedia Showcase",
+		"tin": "00000",
+		"proofing": "SHOW01/multimedia"
 	},
 	"build": {
-		"date": "20/03/2023, 11:48:55",
-		"fwkRevision": "6a521d8d635f9d24d7e4f8f95bf160bf69e42be3",
-		"courseRevision": "51d7ffa1197facf506e08501431af8f2c48f67b1",
-		"courseOrigin": "R:/Production/Resources_in_progress/SIT rebuilds/SIT61 SITXGLC001 Research and comply with regulatory requirements/SIT61.1",
+		"date": "20/03/2023, 12:12:27",
+		"fwkRevision": "8d9df5ac80f7baee813105c81534f044d710566c",
+		"courseRevision": "b67dba358e4be51e1b1f82a0a69036e64924b15a",
+		"courseOrigin": "R:/Production/Working_files/Other/SHOW01/SHOW01.1",
 		"modes": [
 			"build"
 		],
-		"modifiers": [
-			"--skip-uno"
-		],
-		"removedBlocks": [],
-		"includes": [],
-		"excludes": []
+		"modifiers": [],
+		"removedBlocks": [
+			{
+				"_isAvailable": false,
+				"_id": "b-00001-3",
+				"_parentId": "a-05",
+				"_classes": "",
+				"_trackingId": 0,
+				"_type": "block"
+			},
+			{
+				"_isAvailable": false,
+				"_isAvailable--ke01": false,
+				"_id": "b-00001-24",
+				"_parentId": "a-05",
+				"_classes": "",
+				"_blockBackground": {
+					"_isEnabled": true,
+					"_items": [
+						{
+							"_graphic": {
+								"_large": "course/en/images/b-00001-24/bg-1.jpg",
+								"_small": "course/en/images/b-00001-24/bg-1-sm.jpg"
+							}
+						},
+						{
+							"_graphic": {
+								"_large": "course/en/images/b-00001-24/bg-2.jpg",
+								"_small": "course/en/images/b-00001-24/bg-2-sm.jpg"
+							}
+						},
+						{
+							"_graphic": {
+								"_large": "course/en/images/b-00001-24/bg-3.jpg",
+								"_small": "course/en/images/b-00001-24/bg-3-sm.jpg"
+							}
+						},
+						{
+							"_graphic": {
+								"_large": "course/en/images/b-00001-24/bg-4.jpg",
+								"_small": "course/en/images/b-00001-24/bg-4-sm.jpg"
+							}
+						},
+						{
+							"_graphic": {
+								"_large": "course/en/images/b-00001-24/bg-5.jpg",
+								"_small": "course/en/images/b-00001-24/bg-5-sm.jpg"
+							}
+						}
+					]
+				},
+				"_trackingId": 0,
+				"_type": "block"
+			},
+			{
+				"_isAvailable": false,
+				"_id": "b-00002-7",
+				"_parentId": "a-05",
+				"_classes": "",
+				"_trackingId": 0,
+				"_type": "block"
+			},
+			{
+				"_isAvailable": false,
+				"_id": "b-00002-26",
+				"_parentId": "a-05",
+				"_classes": "",
+				"_stickyBlock": {
+					"_isEnabled": true,
+					"_layout": "left"
+				},
+				"_sizing": {
+					"_width": 9,
+					"_maxWidth": false
+				},
+				"_trackingId": 0,
+				"_type": "block"
+			},
+			{
+				"_isAvailable": false,
+				"_id": "b-00005-15",
+				"_parentId": "a-05",
+				"_classes": "",
+				"_trackingId": 0,
+				"_type": "block"
+			},
+			{
+				"_isAvailable": false,
+				"_id": "b-00005-22",
+				"_parentId": "a-05",
+				"_classes": "",
+				"_trackingId": 0,
+				"_type": "block"
+			},
+			{
+				"_isAvailable": false,
+				"_id": "b-00006-20",
+				"_parentId": "a-05",
+				"_classes": "",
+				"_trackingId": 0,
+				"_type": "block"
+			},
+			{
+				"_isAvailable": false,
+				"_id": "b-00051-13",
+				"_parentId": "a-05",
+				"_classes": "",
+				"_trackingId": 0,
+				"_type": "block"
+			},
+			{
+				"_isAvailable": false,
+				"_id": "b-00046-12",
+				"_parentId": "a-05",
+				"_classes": "",
+				"_trackingId": 0,
+				"_type": "block"
+			},
+			{
+				"_isAvailable": false,
+				"_id": "b-00103-18",
+				"_parentId": "a-05",
+				"_classes": "",
+				"_stickyBlock": {
+					"_isEnabled": true,
+					"_layout": "left"
+				},
+				"_sizing": {
+					"_width": 6,
+					"_maxWidth": true
+				},
+				"_trackingId": 0,
+				"_type": "block"
+			}
+		]
 	}
 }

@@ -1,1 +1,0 @@
-FIXME: "bowser" library needs to be duplicated and included in a seperate folder. Attempting to import bowser.js in the menu from the Adapt core libraries causes a softlock.

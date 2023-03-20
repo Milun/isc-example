@@ -1,3 +1,565 @@
 [
-	{"_id": "b-1", 		"_parentId": "a-05", "_classes": "", <<<~ "_trackingId": 0, "_type": "block" ~>>>}
+	<<<! Cyber !>>>
+    {
+		
+		"_id": 			"b-00093-30",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_id": 			"b-00093-31",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_id": 			"b-00211-7",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		"_didasko": {
+			"_backgroundImage": {
+				"_large": 	"course/en/images/b-00211-7/bg.jpg",
+				"_medium": 	"course/en/images/b-00211-7/bg.jpg",
+				"_small": 	"course/en/images/b-00211-7/bg.jpg"
+			}
+		},
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+        "_id": 			"b-00211-8",
+        "_parentId": 	"a-05",
+        "_classes": 	"",
+        "title": 		"b-05",
+        "displayTitle": "",
+        "body": 		"",
+        "instruction": 	"",
+        "_trackingId": 	0,
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "fade-in-bottom",
+            "_percentInviewVertical": 50
+        },
+        "_type": "block"
+	},
+	{
+        "_id": 			"b-00211-9",
+        "_parentId": 	"a-05",
+        "_classes": 	"",
+        "title": 		"b-05",
+        "displayTitle": "",
+        "body": 		"",
+        "instruction": 	"",
+        "_trackingId": 	0,
+		"_blockBackground": {
+			"_isEnabled": 	true,
+
+			<<<! Items !>>>
+			"_items": [
+				{
+					"_graphic": {
+						"_large": 	"course/en/images/b-00211-9/bg-0.jpg",
+						"_small": 	"course/en/images/b-00211-9/bg-0-sm.jpg"
+					}
+				},
+				{
+					"_graphic": {
+						"_large": 	"course/en/images/b-00211-9/bg-1.jpg",
+						"_small": 	"course/en/images/b-00211-9/bg-1-sm.jpg"
+					}
+				},
+				{
+					"_graphic": {
+						"_large": 	"course/en/images/b-00211-9/bg-2.jpg",
+						"_small": 	"course/en/images/b-00211-9/bg-2-sm.jpg"
+					}
+				},
+				{
+					"_graphic": {
+						"_large": 	"course/en/images/b-00211-9/bg-3.jpg",
+						"_small": 	"course/en/images/b-00211-9/bg-3-sm.jpg"
+					}
+				},
+				{
+					"_graphic": {
+						"_large": 	"course/en/images/b-00211-9/bg-4.jpg",
+						"_small": 	"course/en/images/b-00211-9/bg-4-sm.jpg"
+					}
+				},
+				{
+					"_graphic": {
+						"_large": 	"course/en/images/b-00211-9/bg-5.jpg",
+						"_small": 	"course/en/images/b-00211-9/bg-5-sm.jpg"
+					}
+				}
+			]
+		},
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "fade-in-bottom",
+            "_percentInviewVertical": 50
+        },
+        "_type": "block"
+	},	
+	{
+        "_id": 			"b-00211-10",
+        "_parentId": 	"a-05",
+        "_classes": 	"",
+        "title": 		"b-05",
+        "displayTitle": "",
+        "body": 		"",
+        "instruction": 	"",
+        "_trackingId": 	0,
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "fade-in-bottom",
+            "_percentInviewVertical": 50
+        },
+        "_type": "block"
+	},
+	{
+		"_id": 			"b-00211-11",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		"_didasko": {
+			"_backgroundImage": {
+				"_large": 	"course/en/images/b-00211-11/bg.jpg",
+				"_medium": 	"course/en/images/b-00211-11/bg.jpg",
+				"_small": 	"course/en/images/b-00211-11/bg.jpg"
+			}
+		},
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+        "_id": 			"b-00211-12",
+        "_parentId": 	"a-05",
+        "_classes": 	"",
+        "title": 		"b-05",
+        "displayTitle": "",
+        "body": 		"",
+        "instruction": 	"",
+        "_trackingId": 	0,
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "fade-in-bottom",
+            "_percentInviewVertical": 50
+        },
+        "_type": "block"
+	},
+	{
+        "_id": 			"b-00211-13",
+        "_parentId": 	"a-05",
+        "_classes": 	"",
+        "title": 		"b-05",
+        "displayTitle": "",
+        "body": 		"",
+        "instruction": 	"",
+        "_trackingId": 	0,
+		"_blockBackground": {
+			"_isEnabled": 	true,
+
+			<<<! Items !>>>
+			"_items": [
+				{
+					"_graphic": {
+						"_large": 	"course/en/images/b-00211-13/bg-1.jpg",
+						"_small": 	"course/en/images/b-00211-13/bg-1-sm.jpg"
+					}
+				},
+				{
+					"_graphic": {
+						"_large": 	"course/en/images/b-00211-13/bg-2.jpg",
+						"_small": 	"course/en/images/b-00211-13/bg-2-sm.jpg"
+					}
+				},
+				{
+					"_graphic": {
+						"_large": 	"course/en/images/b-00211-13/bg-3.jpg",
+						"_small": 	"course/en/images/b-00211-13/bg-3-sm.jpg"
+					}
+				}
+			]
+		},
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "fade-in-bottom",
+            "_percentInviewVertical": 50
+        },
+        "_type": "block"
+	},
+	{
+        "_id": 			"b-00211-14",
+        "_parentId": 	"a-05",
+        "_classes": 	"",
+        "title": 		"b-05",
+        "displayTitle": "",
+        "body": 		"",
+        "instruction": 	"",
+        "_trackingId": 	0,
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "fade-in-bottom",
+            "_percentInviewVertical": 50
+        },
+        "_type": "block"
+	},
+
+    <<<! Sticky animated !>>>
+    {
+		"_isAvailable": true,
+		"_id": 			"b-00014-2",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		"_stickyBlock": {
+			"_isEnabled": 	true,
+			"_layout": 		"left",	 <<<@ left | right @>>>
+			"_timeline": {
+				"_isEnabled": true
+			}
+		},
+		"_sizing": {
+			"_width": 		6,	 <<<! Width of the sticky column components. !>>> <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<! Max width of the sticky column components on smaller devices. !>>> <<<@ 1 - 12 | true | false @>>>
+		},
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_id": 			"b-00014-6",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_isAvailable": true,
+		"_id": 			"b-00014-8",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		"_stickyBlock": {
+			"_isEnabled": 	true,
+			"_layout": 		"left"	 <<<@ left | right @>>>
+		},
+		"_sizing": {
+			"_width": 		10,	 <<<! Width of the sticky column components. !>>> <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<! Max width of the sticky column components on smaller devices. !>>> <<<@ 1 - 12 | true | false @>>>
+		},
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+    
+    <<<! Animation !>>>
+    {    
+		"_isAvailable": true,
+		"_id": 			"b-00091-23",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+
+	<<<! Case study !>>>
+    {
+		"_isAvailable": true,
+		"_id": 			"b-00103-2",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+    {
+		"_isAvailable": true,
+		"_id": 			"b-00103-33",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		"_stickyBlock": {
+			"_isEnabled": 	true,
+			"_layout": 		"right"	 <<<@ left | right @>>>
+		},
+		"_sizing": {
+			"_width": 		7,	 <<<! Width of the sticky column. !>>> <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	8 <<<! Max width of the sticky column on smaller devices. !>>> <<<@ 1 - 12 | true | false @>>>
+		},
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+    
+    <<<! Your Turn !>>>
+    {
+		"_isAvailable": true,
+		"_id": 			"b-00002-27",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+
+    <<<! Web page building !>>>
+    {
+		"_isAvailable": true,
+		"_id": 			"b-00006-7",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		"_stickyBlock": {
+			"_isEnabled": 	true,
+			"_layout": 		"left"	 <<<@ left | right @>>>
+		},
+		"_sizing": {
+			"_width": 		5,	 <<<! Width of the sticky column components. !>>> <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<! Max width of the sticky column components on smaller devices. !>>> <<<@ 1 - 12 | true | false @>>>
+		},
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+    {
+		"_isAvailable": true,
+		"_id": 			"b-00005-16",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+
+
+    <<<! Video (6 and 7, 8) Brilliance of computer networking / cables  (2) !>>>
+    {
+		"_isAvailable": true,
+		"_id": 			"b-00004-2",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_isAvailable": true,
+		"_id": 			"b-00004-14",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_isAvailable": true,
+		"_id": 			"b-00004-20",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+    <<<! Yourturn !>>>
+    {
+		"_isAvailable": true,
+		"_id": 			"b-00092-15",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"_isAvailable": false,
+		"_id": 			"b-00001-3",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_isAvailable": false,
+		"_isAvailable--ke01": false,
+		"_id": 			"b-00001-24",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		"_blockBackground": {
+			"_isEnabled": true,
+			"_items": [
+				{
+					"_graphic": {
+						"_large": 	"course/en/images/b-00001-24/bg-1.jpg",
+						"_small": 	"course/en/images/b-00001-24/bg-1-sm.jpg"
+					}
+				},
+				{
+					"_graphic": {
+						"_large": 	"course/en/images/b-00001-24/bg-2.jpg",
+						"_small": 	"course/en/images/b-00001-24/bg-2-sm.jpg"
+					}
+				},
+				{
+					"_graphic": {
+						"_large": 	"course/en/images/b-00001-24/bg-3.jpg",
+						"_small": 	"course/en/images/b-00001-24/bg-3-sm.jpg"
+					}
+				},
+				{
+					"_graphic": {
+						"_large": 	"course/en/images/b-00001-24/bg-4.jpg",
+						"_small": 	"course/en/images/b-00001-24/bg-4-sm.jpg"
+					}
+				},
+				{
+					"_graphic": {
+						"_large": 	"course/en/images/b-00001-24/bg-5.jpg",
+						"_small": 	"course/en/images/b-00001-24/bg-5-sm.jpg"
+					}
+				}
+			]
+		},
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_isAvailable": false,
+		"_id": 			"b-00002-7",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_isAvailable": false,
+		"_id": 			"b-00002-26",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		"_stickyBlock": {
+			"_isEnabled": 	true,
+			"_layout": 		"left"	 <<<@ left | right @>>>
+		},
+		"_sizing": {
+			"_width": 		9,	 <<<! Width of the sticky column components. !>>> <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	false <<<! Max width of the sticky column components on smaller devices. !>>> <<<@ 1 - 12 | true | false @>>>
+		},
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_isAvailable": false,
+		"_id": 			"b-00005-15",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_isAvailable": false,
+		"_id": 			"b-00005-22",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_isAvailable": false,
+		"_id": 			"b-00006-20",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_isAvailable": false,
+		"_id": 			"b-00051-13",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_isAvailable": false,
+		"_id": 			"b-00046-12",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_isAvailable": false,
+		"_id": 			"b-00103-18",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		"_stickyBlock": {
+			"_isEnabled": 	true,
+			"_layout": 		"left"	 <<<@ left | right @>>>
+		},
+		"_sizing": {
+			"_width": 		6,	 <<<! Width of the sticky column components. !>>> <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<! Max width of the sticky column components on smaller devices. !>>> <<<@ 1 - 12 | true | false @>>>
+		},
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	}
 ]

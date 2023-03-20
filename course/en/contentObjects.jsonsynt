@@ -10,20 +10,14 @@
 		~>>>
 
 		<<<! === Debug ============================================================================================== !>>>
-		"_tin":			"",	<<<@ TIN number @>>>
-		"_proofing":	"", 	<<<@ "grunt build-upload" will upload to this path on Proofing  @>>> 
+		"_tin":			"00000",	<<<@ TIN number @>>>
+		"_proofing":	"SHOW01/multimedia", 	<<<@ "grunt build-upload" will upload to this path on Proofing  @>>> 
         
 		<<<! === Page header ============================================================================================== !>>>
-		"productionCode": 	"SIT999", 			<<<@ Example: "IT08" @>>>
+		"productionCode": 	"SHOW01", 			<<<@ Example: "IT08" @>>>
 		"topicNum": 		"1",			<<<@ Example: "1" @>>>
-		"title": 			"An example topic title",
-        "displayTitle": 	"An example topic title",
-
-
-		<<<! For glossaries, references, and other _menuData, see the "shared" folder !>>>
-		
-
-		<<<~
+		"title": 			"Didasko Multimedia Showcase",
+        "displayTitle": 	"Didasko Multimedia Showcase",
 		"_didasko": {
 			"_pageHeader": {
 				"_backgroundImage": {
@@ -33,8 +27,472 @@
 				}
 			}
 		},
-		"body": 		<<<"">>>,
+
+		<<<! === Overview ============================================================================================== !>>>
+        "body": 		<<<"
+			<p>This is a showcase topic. It has a collection of Adapt blocks made throughout various units offered by Didasko.</p>
+			<p>The origin of each block can be viewed in debug view.</p>
+		">>>,
         "instruction": 	"",
+
+		<<<! === Menu data ============================================================================================== !>>>
+		"_menuData": {
+
+			<<<! Glossaries !>>>
+			"_glossaries": {
+				"title": "Glossaries",
+				"_items": [
+					{
+						"title": "Trojan",
+						"body": <<<"
+							A Trojan or a Trojan horse is a piece of malicious code that is disguised as legitimate code.
+						">>>
+					},
+					{
+						"title": "Ransomware",
+						"body": <<<"
+							Ransomware is a type of malware. Once ransomware gets into a computer system, it encrypts the files, making it impossible for the user to access them.
+						">>>
+					},
+					{
+						"title": "Malware",
+						"body": <<<"
+							Malware is a malicious software program that can attack and harm your computer and the data stored in it.
+						">>>
+					},
+					{
+						"title": "Descriptive statistics",
+						"body": <<<"
+							Descriptive statistics organises and presents a summative view of collected data. Its primary goal is to collate all the information and present it in a way that makes it easy to interpret.
+						">>>
+					},
+					{
+						"title": "Artificial intelligence",
+						"body": <<<"
+							Artificial intelligence (AI) is the development of computer systems that are capable of performing tasks that normally require human intelligence.
+						">>>
+					},
+					{
+						"title": "Big data",
+						"body": <<<"
+							Big data is a term used to describe large volumes of data. Though the term is relatively new, the practice of gathering and storing data for later analysis isn’t. What has changed is the volume of data generated, which is growing exponentially.
+						">>>
+					},
+					{
+						"title": "Binary",
+						"body": <<<"
+							Binary is a base 2 number system that is made up of only two numbers: 0 and 1. Electronic computers function on the principles of a binary number system.
+						">>>
+					},
+					{
+						"title": "Code-talkers",
+						"body": <<<"
+							Code-talkers are people speaking little-known languages who are employed by military for secret communication.
+						">>>
+					},
+					{
+						"title": "Encrypt",
+						"body": <<<"
+							Encryption is the process of converting information or data into code to secure it from unauthorised access.
+						">>>
+					},
+					{
+						"title": "Iteration",
+						"body": <<<"
+							Iterative design is a process that refers to making a basic design and then making new versions that build, often very slightly, on that design. It's a commonly used philosophy in software and hardware design.
+						">>>
+					},
+					{
+						"title": "Machine learning",
+						"body": <<<"
+							Machine learning is the process of training a machine learning algorithm (program) with sample data (training data), to make predictions or decisions without explicitly programming it to perform the task.
+						">>>
+					},
+					{
+						"title": "RAM",
+						"body": <<<"
+							RAM stands for random access memory, which is a type of very fast data storage component used by a computer as it's processing data. RAM is often called the main memory. The phrase 'random access' is used as any part of the memory can be randomly accessed to read data stored there or to write data to it.
+						">>>
+					},
+					{
+						"title": "Star topology",
+						"body": <<<"
+							A way of connecting networks where each device has its own dedicated line back to a central switch, in a metaphorical 'star' shape.
+						">>>
+					},
+					{
+						"title": "SSDs",
+						"body": <<<"
+							A solid-state drive is a non-volatile storage device. This means it is capable of storing and saving information regardless of whether the computer is turned on or off.
+						">>>
+					},
+					{
+						"title": "BIOS",
+						"body": <<<"
+							Basic input/output system (BIOS) is software contained on a small memory chip on the motherboard. It tells the computer how to perform functions such as keyboard control and starting up.
+						">>>
+					},
+					{
+						"title": "Peripheral device",
+						"body": <<<"
+							A peripheral device isn’t needed for the main computer system to operate but helps the user access various functions. Examples of peripheral devices include a printer, scanner, mouse, keyboard and webcam.
+						">>>
+					},
+					{
+						"title": "Intrusion detection feature",
+						"body": <<<"
+							An intrusion detection features is a device or software application that monitors and detects malicious activity and security violations.
+						">>>
+					},
+					{
+						"title": "Bits",
+						"body": <<<"
+							A basic unit of information used in computers, usually represented as a 0 or 1. 8 bits make 1 byte. Computer memory is measured in bytes.
+						">>>
+					},
+					{
+						"title": "Optical reader",
+						"body": <<<"
+							An optical reader uses a light source to read characters, marks and codes and then converts them into digital data that a computer can process. Optical character recognition (OCR) and optical mark recognition (OMR) are the two technologies used by optical readers.
+						">>>
+					},
+					{
+						"title": "Core",
+						"body": <<<"
+							A core receives instructions and performs actions (or calculations) based on those instructions. Each core in a multi-core processor can be delegated to support a specific application which allows installed programs to work simultaneously.
+						">>>
+					},
+					{
+						"title": "Microprocessor",
+						"body": <<<"
+							Microprocessors are miniaturised logical circuits built into wafer-thin sheets of silicon chips. Each chip contains millions of microscopic circuits called logic gates which are interconnected to store and manipulate data.
+						">>>
+					},
+					{
+						"title": "Radio frequency identification (RFID)",
+						"body": <<<"
+							Radio frequency identification (RFID) is a technology that uses radio signals to communicate with a tag placed in or attached to an object such as a clothing label.
+						">>>
+					},
+					{
+						"title": "USB",
+						"body": <<<"
+							Universal Serial Bus (USB) is used to connect peripheral devices such as keyboards, pointing devices, digital cameras, printers and other devices to a computer.
+						">>>
+					},
+					{
+						"title": "Peripheral device",
+						"body": <<<"
+							A peripheral device isn’t needed for the main computer system to operate but helps the user access various functions. Examples of peripheral devices include a printer, scanner, mouse, keyboard and webcam.
+						">>>
+					},
+					{
+						"title": "DDR3",
+						"body": <<<"
+							Double data rate type three (DDR3) is a synchronous dynamic random access memory with a high bandwidth. This means computers can execute tasks much more quickly because it allows for queuing of a process while waiting for another.
+						">>>
+					},
+					{
+						"title": "Jumpers",
+						"body": <<<"
+							Jumpers are typically used to set up or configure components such as the motherboard and hard drives.
+						">>>
+					},
+					{
+						"title": "Intrusion detection feature",
+						"body": <<<"
+							An intrusion detection features is a device or software application that monitors and detects malicious activity and security violations.
+						">>>
+					},
+					{
+						"title": "Fusion controller hub (FCH)",
+						"body": <<<"
+							The fusion controller hub (FCH) is a chipset that controls all the computer’s I/O functions.
+						">>>
+					},
+					{
+						"title": "Contrast ratio",
+						"body": <<<"
+							Contrast ratio refers to the luminance of the brightest colour (white) to that of the darkest colour (black).
+						">>>
+					},
+					{
+						"title": "Dot pitch",
+						"body": <<<"
+							Dot pitch (also known as phosphor pitch) is the distance between dots (sub-pixels) on a computer display or another pixel-based device. It refers to the clarity of a computer image and is measured in millimetres. The smaller the number, the sharper the image.
+						">>>
+					},
+					{
+						"title": "Digital video interface (DVI) port",
+						"body": <<<"
+							The DVI port allows digital signals to transmit directly to a display device, such as a computer monitor.
+						">>>
+					},
+					{
+						"title": "High-definition media interface (HDMI) port",
+						"body": <<<"
+							The HDMI is designed to carry high-quality and high-bandwidth streams of audio and video signals between devices such as a projector, Blu-ray player, high-definition (HD) television, digital camera or DVD player.
+						">>>
+					},
+					{
+						"title": "Display port (DP)",
+						"body": <<<"
+							The display port (DP) supports high-definition audio and video. It is an alternative to a DVI port.
+						">>>
+					},
+					{
+						"title": "Light-emitting diode (LED)",
+						"body": <<<"
+							An LED refers to a type of screen display technology. Smartphones, tablets, TVs, laptop screens and computer monitors use LED display technology.
+						">>>
+					},
+					{
+						"title": "Cold cathode fluorescent lamps (CCFL technology)",
+						"body": <<<"
+							CCFL technology refers to the backlighting which uses a single straight glass tube to display the output. Older and thicker monitors use CCFL.
+						">>>
+					},
+					{
+						"title": "Binary number",
+						"body": <<<"
+							A binary number system is numbers expressed in a base-2 numeral system. That is, it uses the combination of two symbols (0 and 1) to express different values. The common number system that you are used to is the base-10 number system that has ten symbols (0-9).
+						">>>
+					},
+					{
+						"title": "Integrated circuit",
+						"body": <<<"
+							An integrated circuit is an entire electronic circuit built onto a silicon semiconductor chip.
+						">>>
+					},
+					{
+						"title": "Liquid crystal display (LCD)",
+						"body": <<<"
+							A display type that sandwiches a liquid compound between two sheets of material and presents sharp, flicker-free images on a screen when illuminated by a backlight. They are thin, light and relatively inexpensive to produce.
+						">>>
+					},
+					{
+						"title": "PC",
+						"body": <<<"
+						Personal computer.
+						">>>
+					},
+					{
+						"title": "GPU",
+						"body": <<<"
+							The GPU acts as a translator between the CPU and monitor to visually display information and render graphics. It either comes as a removable graphics card that can be plugged into the motherboard or as a unit built into the motherboard.
+						">>>
+					},
+					{
+						"title": "PPM",
+						"body": <<<"
+								Pages per minute (PPM) is a measurement of a printer’s speed and, as the name suggests, describes how many standard pages it can print per minute.
+						">>>
+					},
+					{
+						"title": "Heat sink",
+						"body": <<<"
+							<p>A device for absorbing excessive or unwanted heat from an electronic device such as a processor. Heat sinks are made of heat conductive material and are attached to components using a thermal paste. Heat sinks can be either passive or active. </p>
+							<p>Active heat sinks have a fan attached to them to improve the cooling off process and are used with CPUs and video cards.</p>
+							<p>Passive heat sinks have no fan and are used with motherboard chipsets and memory modules.</p>
+
+						">>>
+					},
+					{
+						"title": "Force feedback/tactile output/haptic feedback",
+						"body": <<<"
+							Rumbling vibrations that create the sensation of touch or force. Joysticks, steering wheels and gamepads are examples of devices which use vibrations to create a sense of heightened realism. Smartphones also provide force feedback when they vibrate or deliver a rumbling sensation as you scroll through a list.
+						">>>
+					},
+					{
+						"title": "Internet",
+						"body": <<<"
+							Merriam-Webster{{#reference}}2021{{/reference}} defines the internet as ‘an electronic communications network that connects computer networks and organisational computer facilities around the world’. But you already knew that, right?
+						">>>
+					},
+					{
+						"title": "Broadband internet",
+						"body": <<<"
+							Broadband internet refers to a type of high-speed internet connection that is much faster than its predecessor, dial-up access.
+						">>>
+					},
+					{
+						"title": "Node",
+						"body": <<<"
+							In networking, a node can be any type of hardware device, such as a desktop computer, printer, router or iPad, that is able to send, receive and/or forward information. These hardware devices are referred to as ‘nodes’.
+						">>>
+					},
+					{
+						"title": "Channel",
+						"body": <<<"
+							A channel is a way of transmitting information, so it could be a data cable, or it could be literally a television channel which is transmitting a certain station over the airwaves.
+						">>>
+					},
+					{
+						"title": "Protocol suite",
+						"body": <<<"
+							A series of protocols used in a communication network that work together in the context of a larger stack of protocols.
+						">>>
+					},
+					{
+						"title": "Hypertext Transfer Protocol (HTTP)",
+						"body": <<<"
+							The web uses this protocol to transmit data. This is only one of the languages used to communicate on the internet.
+						">>>
+					},	
+					{
+						"title": "Internet Protocol (IP)",
+						"body": <<<"
+							IP is the fundamental communications protocol for the internet. IP works together with TCP. Where IP makes sure data gets to the right destination, TCP ensures it’s in the right order and that none of it is missing.
+						">>>
+					},	
+					{
+						"title": "Transmission Control Protocol (TCP)",
+						"body": <<<"
+							This protocol makes it possible for computers to communicate with each other over a network. It’s part of the TCP/IP protocol suite used by the internet. Where IP determines the right destination, TCP ensures the data gets delivered to the destination in the right order.
+						">>>
+					},
+					{
+						"title": "Communication medium",
+						"body": <<<"
+							The connection between the nodes along which data, messages, commands and requests travel is called the communication medium.
+						">>>
+					},
+					{
+						"title": "Network adapters",
+						"body": <<<"
+							Network adapters or network interface cards (NICs) are installed in computers or built onto motherboards to allow them to be used on a network. NICs provide the circuitry and physical connection points needed for end and intermediary devices to ‘communicate’ with each other over the network.
+						">>>
+					},
+					{
+						"title": "Physical port",
+						"body": <<<"
+							The physical port is a connector or outlet on an intermediary device to which one end of the network media is connected and the other end connects to either an end device or another intermediary device.
+						">>>
+					},
+					{
+						"title": "Ethernet",
+						"body": <<<"
+							Ethernet is a technology that is most commonly used in wired local area networks.
+						">>>
+					},
+					{
+						"title": "Blockchain",
+						"body": <<<"
+							Blockchain is most famous as the technology behind cryptocurrencies like Bitcoin. A distributed database of digital ledger in which transactions are recorded chronologically and publicly. The transactions are added to the electronic ledger by a computationally difficult puzzle that involves a lot of peers. Once the transaction record is added, it can’t be removed or updated. Blockchain is the basics for cryptocurrencies like Bitcoin.
+						">>>
+					},
+					{
+						"title": "Virtual connection",
+						"body": <<<"
+							A virtual connection is a means of transporting data in such a way that the source and destination nodes believe that there is a physical layer link between them.
+						">>>
+					},
+					{
+						"title": "Collision",
+						"body": <<<"
+							A collision occurs when two or more network devices attempt to transmit data at the same time
+						">>>
+					}		
+				]
+			},
+
+			<<<! Resources !>>>
+			"_resources": {
+				"title": "Resources",
+				"_items": [
+					<<<!
+					{
+						"title": "XXXX",
+						"download": "course/en/downloads/b-X/XXXXX"
+					}
+					!>>>
+				]
+			},
+
+			<<<! References !>>>
+			"_references": {
+				"title": "References",
+				"_items": [
+					<<<!
+					{
+						"body": <<<"
+							XXXXXXXXX
+						">>>
+					}
+					!>>>
+				]
+			},
+
+			<<<! Credits !>>>
+			"_credits": {
+				"title": "Credits",
+				"_items": [
+					{
+						"role": "Authors",
+						"names": [
+						]
+					},
+					{
+						"role": "Product Manager",
+						"names": [
+							"Andrew Hall"
+						]
+					},
+					{
+						"role": "Production Manager",
+						"names": [
+							"Madelyn Kinch"
+						]
+					},
+					{
+						"role": "Subject Matter Expert",
+						"names": [
+							
+						]
+					},
+					{
+						"role": "Developmental Editors",
+						"names": [
+							
+						]
+					},
+					{
+						"role": "Editor / Proofreader",
+						"names": [
+							
+						]
+					},
+					{
+						"role": "Lead Developer",
+						"names": [
+							"Milton Plotkin"
+						]
+					},
+					{
+						"role": "Multimedia Developers",
+						"names": [
+							"Gerard Perena",
+							"Meines Lim",
+							"Steven Tan"
+						]
+					},
+					{
+						"role": "Instructional Designer",
+						"names": [
+							
+						]
+					},
+					{
+						"role": "Cover design",
+						"names": [
+							"David Woloszyn"
+						]
+					}
+				]
+			}
+		},
+
+		<<<~
 		"_graphic": {
             "src": "course/en/images/menu-item.png",
             "alt": "Placeholder graphic."
